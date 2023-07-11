@@ -41,7 +41,7 @@ end
 local found = false
 local request = syn and syn.request or request
 
-local main = library:Load({Name = "EGG Farmer", Theme = "Dark", SizeX = 238, SizeY = (request and 399 or 362), ColorOverrides = {}})
+local main = library:Load({Name = "EGG Farmer", Theme = "Dark", SizeX = 238, SizeY = 1000, ColorOverrides = {}})
 local aimbot = main:Tab("Main")
 local section = aimbot:Section({Name = "Autofarm                ", column = 1})
 
